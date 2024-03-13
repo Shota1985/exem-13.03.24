@@ -1,0 +1,82 @@
+header {
+  width: 92px;
+  z-index: 99;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.34) 0%,
+    rgba(0, 0, 0, 0.87) 100%
+  );
+  box-shadow: 31px 31px 80px 0px #00000063;
+}
+.header__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__slider {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 36px;
+  transition: 0.5s;
+  color: #ffffff;
+  background-color: #2c2c2e;
+  padding: 44.7px 25px;
+  cursor: pointer;
+}
+button:hover {
+  background: #24632e;
+}
+hr {
+  margin-top: 20px;
+  width: 28px;
+  color: #ffffffc2;
+}
+.header__nav {
+  margin-top: 58px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger__stick:hover {
+  transform: scale(1.2);
+}
+.header__icon {
+  padding: 10px;
+  transition: 0.4s;
+}
+.header__icon:hover {
+  transform: scale(1.2);
+}
+.burger__stick {
+  transition: 0.4s;
+  position: relative;
+  display: block;
+  width: 23px;
+  height: 2px;
+  background: #ffffff;
+}
+.burger__stick::after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  display: block;
+  width: 31px;
+  height: 2px;
+  background: #ffffff;
+}
+.burger__stick::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  display: block;
+  width: 31px;
+  height: 2px;
+  background: #ffffff;
+}

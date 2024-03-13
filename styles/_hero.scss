@@ -1,0 +1,140 @@
+.hero {
+  margin-left: -100px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../src/frida-bredesen-Pomm1KDR9yY-unsplash\ 2.png);
+  background-color: rgba(255, 228, 196, 0.575);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero__container {
+  position: relative;
+}
+.hero__container::before {
+  content: "";
+  width: 1px;
+  height: 325px;
+  background: #ffffffc2;
+  position: absolute;
+  top: 137.5%;
+  left: 49%;
+}
+.hero__icon{padding-right: 19px;}
+.hero__logo {
+  padding-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.205em;
+  text-align: center;
+}
+.hero__intrudaction {
+  max-width: max-content;
+  margin: 0 auto;
+  box-shadow: 9.15479564666748px 4.519078731536865px 21.0560302734375px 0px
+    #00000066;
+}
+.hero__subtitle {
+  margin-top: 106px;
+  font-family: "Roboto";
+  color: #ffffff85;
+  background: linear-gradient(
+    93.05deg,
+    rgba(255, 255, 255, 0.03) 1.45%,
+    rgba(255, 255, 255, 0.01) 20.63%
+  );
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 26px;
+  letter-spacing: 46.2px;
+  text-align: center;
+}
+.hero__title {
+  font-family: "Roboto Condensed";
+  font-size: 264px;
+  font-weight: 700;
+  line-height: 200px;
+  letter-spacing: -5px;
+  color: #ffffff85;
+  background: linear-gradient(
+    93.05deg,
+    rgba(255, 255, 255, 0.03) 1.45%,
+    rgba(255, 255, 255, 0.01) 20.63%
+  );
+}
+.hero__content {
+  margin-top: 50px;
+  position: absolute;
+  left: 53%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero__name {
+  font-family: "Roboto Condensed";
+  font-size: 33px;
+  font-weight: 300;
+  line-height: 39px;
+  letter-spacing: 0.115em;
+  color: #fffffff3;
+}
+.hero__habitat_bold {
+  margin-top: 41px;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #ffffff;
+}
+.hero__habitat {
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #ffffffcb;
+}
+.hero__description {
+  margin-top: 14px;
+  width: 533px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #ffffffc2;
+}
+.hero__description_green {
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #32d74b;
+}
+.hero__characteristics_bold {
+  font-family: "Roboto Condensed";
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: -0.055em;
+  color: #ffffff;
+}
+.hero__characteristics_thin {
+  margin-top: 13px;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffffb0;
+}
+.hero__capabilities {
+  width: 325;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
